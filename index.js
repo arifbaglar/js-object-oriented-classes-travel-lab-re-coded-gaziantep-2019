@@ -8,9 +8,9 @@ class Driver{
     let date1 = new Date(this.day);
     return date1;
   }
-  yearsExperienceFromBeginningOf(){
+  yearsExperienceFromBeginningOf(day2){
     let date1 = new Date(this.day);
-    let date2 = new Date();
+    let date2 = new Date(day2);
     return date2.getFullYear()-date1.getFullYear();
   }
 }
