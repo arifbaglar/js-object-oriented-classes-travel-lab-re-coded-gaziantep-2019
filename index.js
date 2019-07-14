@@ -38,6 +38,7 @@ let eastWest = [
   let zaman1= this.blocksTravelled()/3;
   let zaman2= this.blocksTravelled()/2;
      if(true)return zaman1 ;
+     else return zaman2;
    
 }
 
