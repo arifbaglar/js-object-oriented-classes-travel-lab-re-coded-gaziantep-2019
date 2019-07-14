@@ -38,7 +38,9 @@ let eastWest = [
   let zaman1= this.blocksTravelled()/3;
   let zaman2= this.blocksTravelled()/2;
     if(true) return Math.round(zaman1);
-    
+    else{
+      return Math.round(zaman2);
+    }
 }
 }
 
