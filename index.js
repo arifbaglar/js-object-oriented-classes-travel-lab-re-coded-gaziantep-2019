@@ -5,9 +5,12 @@ class Driver{
   }
   
   startDate(){
-    return date(this.day);
+    let date1 = new Date(this.day);
+    return date1;
   }
   yearsExperienceFromBeginningOf(){
-    return date.now()-date(this.day);
+    let date1 = new Date(this.day);
+    let date2 = new Date();
+    return date2.getFullYear()-date1.getFullYear();
   }
 }
