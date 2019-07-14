@@ -34,13 +34,11 @@ let eastWest = [
       let fark= Math.abs(eastWest.indexOf(this.beginningLocation.horizontal)-eastWest.indexOf(this.endingLocation.horizontal))+Math.abs(this.beginningLocation.vertical-this.endingLocation.vertical)
       return fark;
   }
-  estimatedTime(peak){
+  estimatedTime(){
   let zaman1= this.blocksTravelled()/3;
   let zaman2= this.blocksTravelled()/2;
-    if(peak=2) return Math.round(zaman2);
-    else{
-      return Math.round(zaman1);
-    }
+     return Math.round(zaman2);
+   
 }
 }
 
