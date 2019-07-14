@@ -35,8 +35,9 @@ let eastWest = [
       return fark;
   }
   estimatedTime(){
-  let zaman= this.blocksTravelled()/3;
-     return Math.round(zaman);
+  let zaman1= this.blocksTravelled()/3;
+  let zaman2= this.blocksTravelled()/2;
+     return Math.round(zaman1);
 
 }
 }
