@@ -6,7 +6,7 @@ class Driver{
   
  
   yearsExperienceFromBeginningOf(day2){
-    let date1 = new Date(this.day);
+    let date1 = new Date(this.startDate);
     let date2 = new Date(day2);
     return date2.getFullYear()-date1.getFullYear();
   }
