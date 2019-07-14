@@ -5,6 +5,7 @@ class Driver{
   }
   
   startDate(){
-    return date()
+    return date(this.day);
   }
+  
 }
