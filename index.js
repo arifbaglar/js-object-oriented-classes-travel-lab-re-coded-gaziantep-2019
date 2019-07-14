@@ -37,7 +37,7 @@ let eastWest = [
   estimatedTime(){
   let zaman1= this.blocksTravelled()/3;
   let zaman2= this.blocksTravelled()/2;
-     return zaman1+zaman2 ;
+     return zaman1 ;
    
 }
 
